@@ -1,10 +1,27 @@
-from typing import Union
+from typing import Union, Generator, Annotated, Optional
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from pydantic import BaseModel
+from sqlmodel import create_engine, Field, Session, SQLModel
+
+engine = create_engine("mysql+pymysql://root:123456@localhost/flask_demo")
+
+
+def get_db() -> Generator[Session, None, None]:
+    with Session(engine) as session:
+        yield session
 
 
 app = FastAPI()
+SessionDep = Annotated[Session, Depends(get_db)]
+
+
+class Users(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    name: str
+
+
+SQLModel.metadata.create_all(engine)
 
 
 class Item(BaseModel):
@@ -40,3 +57,25 @@ def save_item(item_id: int, item: Item, user: User):
 @app.post("/item3/get", response_model=User)
 def save_item2(item_id: int, item: Item, user: User):
     return user
+
+
+class CommonQueryParams:
+    def __init__(self, q: str | None = None, skip: int = 0, limit: int = 100):
+        self.q = q
+        self.skip = skip
+        self.limit = limit
+
+
+@app.post("/depends/get")
+def depends(common: CommonQueryParams = Depends(CommonQueryParams)):
+    return {}
+
+
+@app.post("/save_user")
+def save_user(sesssion: SessionDep):
+    user = Users()
+    user.name = "11"
+    user.id = 1
+    sesssion.add(user)
+    sesssion.commit()
+    sesssion.flush()
