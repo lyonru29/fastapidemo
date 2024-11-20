@@ -3,7 +3,10 @@ from typing import Union, Generator, Annotated, Optional
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from sqlmodel import create_engine, Field, Session, SQLModel
-
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("fastapi")
+logger.info("server starting...")
 engine = create_engine("mysql+pymysql://root:123456@localhost/flask_demo")
 
 
@@ -36,6 +39,7 @@ class User(BaseModel):
 
 @app.get("/")
 def get_root():
+    logger.info("hello")
     return {"hello": "world"}
 
 
