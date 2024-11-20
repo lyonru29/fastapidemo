@@ -15,6 +15,8 @@ def get_db() -> Generator[Session, None, None]:
         yield session
 
 
+g = get_db()
+print()
 app = FastAPI()
 SessionDep = Annotated[Session, Depends(get_db)]
 
