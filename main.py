@@ -1,32 +1,14 @@
-from typing import Union, Generator, Annotated, Optional
+from typing import Union, Annotated
 
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
-from sqlmodel import create_engine, Field, Session, SQLModel
-import logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("fastapi")
-logger.info("server starting...")
-engine = create_engine("mysql+pymysql://root:123456@localhost/flask_demo")
+from sqlmodel import Session
+from db import get_db
 
-
-def get_db() -> Generator[Session, None, None]:
-    with Session(engine) as session:
-        yield session
-
-
-g = get_db()
-print()
 app = FastAPI()
+
+
 SessionDep = Annotated[Session, Depends(get_db)]
-
-
-class Users(SQLModel, table=True):
-    id: Optional[int] = Field(default=None, primary_key=True)
-    name: str
-
-
-SQLModel.metadata.create_all(engine)
 
 
 class Item(BaseModel):
