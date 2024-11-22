@@ -6,6 +6,9 @@ logger.info("ss")
 engine = create_engine("mysql+pymysql://root:123456@localhost/flask_demo")
 
 
+
+
+
 SQLModel.metadata.create_all(engine)
 
 
