@@ -4,7 +4,7 @@ from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from sqlmodel import Session
 from db import get_db
-
+from logger import logger
 app = FastAPI()
 
 
@@ -61,9 +61,7 @@ def depends(common: CommonQueryParams = Depends(CommonQueryParams)):
 
 @app.post("/save_user")
 def save_user(sesssion: SessionDep):
-    user = Users()
-    user.name = "11"
-    user.id = 1
+    user: User = User(user_name="11")
     sesssion.add(user)
     sesssion.commit()
     sesssion.flush()

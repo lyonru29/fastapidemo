@@ -1,0 +1,271 @@
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:uvicorn.error:Will watch for changes in these directories: ['/Users/lyonzeng/Projects/GitHub/fastapidemo']
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Started reloader process [46011] using WatchFiles
+INFO:watchfiles.main:15 changes detected
+INFO:watchfiles.main:28 changes detected
+INFO:watchfiles.main:51 changes detected
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:uvicorn.error:Started server process [46033]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:60 changes detected
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:18 changes detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'main.py', 'backend/main.py', 'backend/db.py', 'backend/logger.py', 'logger.py', 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [46033]
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:2 changes detected
+INFO:watchfiles.main:4 changes detected
+INFO:uvicorn.error:Stopping reloader process [46011]
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:uvicorn.error:Will watch for changes in these directories: ['/Users/lyonzeng/Projects/GitHub/fastapidemo/backend']
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Started reloader process [58990] using WatchFiles
+INFO:watchfiles.main:15 changes detected
+INFO:watchfiles.main:79 changes detected
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:uvicorn.error:Started server process [59043]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:60 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [59043]
+INFO:fastapi:server starting...
+INFO:fastapi:ss
+INFO:watchfiles.main:1 change detected
+INFO:uvicorn.error:Started server process [59174]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [59174]
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [59242]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:4 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [59242]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [59512]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [59512]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [60553]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [60553]
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [61052]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:4 changes detected
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [61052]
+ERROR:uvicorn.error:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "uvloop/loop.pyx", line 1512, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1505, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1379, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 557, in uvloop.loop.Loop._run
+  File "uvloop/loop.pyx", line 476, in uvloop.loop.Loop._on_idle
+  File "uvloop/cbhandles.pyx", line 83, in uvloop.loop.Handle._run
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/rich_toolkit/utils/colors.py", line 159, in <lambda>
+    signal.SIGTERM, lambda signum, frame: (restore_terminal(), sys.exit(0))
+                                                               ~~~~~~~~^^^
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 701, in lifespan
+    await receive()
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:uvicorn.error:Stopping reloader process [58990]
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Will watch for changes in these directories: ['/Users/lyonzeng/Projects/GitHub/fastapidemo/backend']
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Started reloader process [61214] using WatchFiles
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [61216]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [61216]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [61967]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [61967]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [63413]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Will watch for changes in these directories: ['/Users/lyonzeng/Projects/GitHub/fastapidemo/backend']
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Started reloader process [66748] using WatchFiles
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [66757]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'db.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [66757]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [69338]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Finished server process [69338]
+ERROR:uvicorn.error:Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "uvloop/loop.pyx", line 1512, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1505, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1379, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 557, in uvloop.loop.Loop._run
+  File "uvloop/loop.pyx", line 476, in uvloop.loop.Loop._on_idle
+  File "uvloop/cbhandles.pyx", line 83, in uvloop.loop.Handle._run
+  File "uvloop/cbhandles.pyx", line 63, in uvloop.loop.Handle._run
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 70, in serve
+    with self.capture_signals():
+         ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/uvicorn/server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/rich_toolkit/utils/colors.py", line 159, in <lambda>
+    signal.SIGTERM, lambda signum, frame: (restore_terminal(), sys.exit(0))
+                                                               ~~~~~~~~^^^
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/starlette/routing.py", line 701, in lifespan
+    await receive()
+  File "/Users/lyonzeng/Projects/GitHub/fastapidemo/backend/.venv/lib/python3.13/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/asyncio/queues.py", line 186, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+INFO:uvicorn.error:Stopping reloader process [66748]
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Will watch for changes in these directories: ['/Users/lyonzeng/Projects/GitHub/fastapidemo/backend']
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Started reloader process [56832] using WatchFiles
+INFO:watchfiles.main:15 changes detected
+INFO:watchfiles.main:28 changes detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [56871]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:111 changes detected
