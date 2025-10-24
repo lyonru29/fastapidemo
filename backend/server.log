@@ -269,3 +269,94 @@ INFO:uvicorn.error:Started server process [56871]
 INFO:uvicorn.error:Waiting for application startup.
 INFO:uvicorn.error:Application startup complete.
 INFO:watchfiles.main:111 changes detected
+INFO:fastapi:server starting...
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Will watch for changes in these directories: ['/Users/lyon/Projects/Github/fastapidemo/backend']
+INFO:uvicorn.error:Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:uvicorn.error:Started reloader process [34391] using WatchFiles
+INFO:watchfiles.main:15 changes detected
+INFO:watchfiles.main:28 changes detected
+INFO:watchfiles.main:111 changes detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [34393]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:3 changes detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:1 change detected
+INFO:watchfiles.main:3 changes detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'app/routers/main.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [34393]
+INFO:watchfiles.main:10 changes detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [38811]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'app/routers/auth.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [38811]
+INFO:watchfiles.main:10 changes detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [38935]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'app/routers/auth.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [38935]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [39379]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:9 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'app/routers/auth.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [39379]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [39588]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:6 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'app/routers/auth.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [39588]
+INFO:watchfiles.main:1 change detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [39616]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:watchfiles.main:6 changes detected
+INFO:watchfiles.main:1 change detected
+WARNING:uvicorn.error:WatchFiles detected changes in 'app/routers/main.py'. Reloading...
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [39616]
+INFO:watchfiles.main:14 changes detected
+INFO:watchfiles.main:16 changes detected
+INFO:fastapi:server starting...
+INFO:uvicorn.error:Started server process [39901]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+INFO:uvicorn.error:Shutting down
+INFO:uvicorn.error:Waiting for application shutdown.
+INFO:uvicorn.error:Application shutdown complete.
+INFO:uvicorn.error:Finished server process [39901]
+INFO:uvicorn.error:Stopping reloader process [34391]

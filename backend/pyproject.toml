@@ -10,3 +10,8 @@ dependencies = [
     "pymysql>=1.1.2",
     "sqlmodel>=0.0.24",
 ]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.18.2",
+]

@@ -1,13 +1,16 @@
-from typing import Union, Annotated
+from typing import Annotated, Union
 
-from fastapi import FastAPI, Depends
+from fastapi import Depends, FastAPI
 from pydantic import BaseModel
 from sqlmodel import Session
+
+from app.routers import main
 from db import get_db
 from logger import logger
+
 app = FastAPI()
 
-
+app.include_router(main.router)
 SessionDep = Annotated[Session, Depends(get_db)]
 
 
